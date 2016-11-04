@@ -1,29 +1,32 @@
 Sleepy:
   Hollow: "안녕하세요"
   test: "처음 하는 yml"
+  onlydefault: "defaulty profile only"
 
 ---
 
-Spring:
-  Profiles: stage
+spring:
+  profiles: stage
 Sleepy:
   Hollow: "안녕하세요"
   test: "처음 하는 yml - stage server."
+  onlyeachprofile: "only - stage"
 
 
 ---
 
-Spring:
-  Profiles: dev
+spring:
+  profiles: dev
 Sleepy:
   Hollow: "안녕하세요"
   test: "처음 하는 yml - dev server."
+  onlyeachprofile: "only - dev"
 
 
 ---
 
-Spring:
-  Profiles: local
+spring:
+  profiles: local
 Sleepy:
   Hollow: "안녕하세요"
   test: "처음 하는 yml - local server."
