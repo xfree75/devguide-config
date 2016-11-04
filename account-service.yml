@@ -9,7 +9,7 @@ spring:
   profiles: stage
 sleepy:
   hollow: "안녕하세요"
-  test: "처음 하는 yml - stage server."
+  test: "처음 하는 yml - stage server. - modify"
   onlyeachprofile: "only - stage"
 
 
@@ -29,5 +29,5 @@ spring:
   profiles: local
 sleepy:
   hollow: "안녕하세요"
-  test: "처음 하는 yml - local server. - modify."
+  test: "처음 하는 yml - local server."
   onlydefault: "override default"
