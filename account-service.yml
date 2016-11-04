@@ -1,5 +1,5 @@
-Sleepy:
-  Hollow: "안녕하세요"
+sleepy:
+  hollow: "안녕하세요"
   test: "처음 하는 yml"
   onlydefault: "defaulty profile only"
 
@@ -7,8 +7,8 @@ Sleepy:
 
 spring:
   profiles: stage
-Sleepy:
-  Hollow: "안녕하세요"
+sleepy:
+  hollow: "안녕하세요"
   test: "처음 하는 yml - stage server."
   onlyeachprofile: "only - stage"
 
@@ -17,8 +17,8 @@ Sleepy:
 
 spring:
   profiles: dev
-Sleepy:
-  Hollow: "안녕하세요"
+sleepy:
+  hollow: "안녕하세요"
   test: "처음 하는 yml - dev server."
   onlyeachprofile: "only - dev"
 
@@ -27,7 +27,7 @@ Sleepy:
 
 spring:
   profiles: local
-Sleepy:
-  Hollow: "안녕하세요"
+sleepy:
+  hollow: "안녕하세요"
   test: "처음 하는 yml - local server."
   onlydefault: "override default"
