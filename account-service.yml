@@ -8,7 +8,7 @@ sleepy:
 spring:
   profiles: stage
 sleepy:
-  hollow: "안녕하세요"
+  hollow: "안녕하세요 - modify"
   test: "처음 하는 yml - stage server. - modify"
   onlyeachprofile: "only - stage"
 
