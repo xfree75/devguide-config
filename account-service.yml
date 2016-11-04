@@ -1,3 +1,29 @@
 Sleepy:
   Hollow: "안녕하세요"
   test: "처음 하는 yml"
+
+---
+
+Spring:
+  Profiles: stage
+Sleepy:
+  Hollow: "안녕하세요"
+  test: "처음 하는 yml - stage server."
+
+
+---
+
+Spring:
+  Profiles: dev
+Sleepy:
+  Hollow: "안녕하세요"
+  test: "처음 하는 yml - dev server."
+
+
+---
+
+Spring:
+  Profiles: local
+Sleepy:
+  Hollow: "안녕하세요"
+  test: "처음 하는 yml - local server."
